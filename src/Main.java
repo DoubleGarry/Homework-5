@@ -35,20 +35,35 @@ public class Main {
                 System.out.println("Установите обычную версию приложения для Android по ссылке");
         }
         }
-
-
-
     }
     public static void task3(){
         System.out.println("Задача 3");
-
+        int year = 2021;
+        if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+            System.out.println(year + " год високосный");
+        } else {
+            System.out.println(year + " год не високосный");
+        }
     }
     public static void task4(){
         System.out.println("Задача 4");
-
+        int deliveryDistance = 60;
+        if (deliveryDistance <= 20) {
+            System.out.println( "Потребуется 1 день ");
+        }
+        else if (deliveryDistance >20 && deliveryDistance <= 60){
+            System.out.println( "Потребуется 2 дня ");
+        }
+        else if (deliveryDistance >60 && deliveryDistance <= 100) {
+            System.out.println( "Потребуется 3 дня ");
+        }
+        else {
+            System.out.println( "Свыше 100 км доставки нет.");
+        }
     }
     public static void task5(){
         System.out.println("Задача 5");
+
 
     }
 }
