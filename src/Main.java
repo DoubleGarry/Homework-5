@@ -5,13 +5,18 @@ public class Main {
         task3();
         task4();
         task5();
-        task6();
-        task7();
+
 
     }
     public static void task1(){
         System.out.println("Задача 1");
-
+        int clientOC = 1;
+        if (clientOC == 0) {
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        }
+        else {
+            System.out.println("Установите версию приложения для Android по ссылке");
+        }
     }
     public static void task2(){
         System.out.println("Задача 2");
@@ -27,14 +32,6 @@ public class Main {
     }
     public static void task5(){
         System.out.println("Задача 5");
-
-    }
-    public static void task6(){
-        System.out.println("Задача 6");
-
-    }
-    public static void task7(){
-        System.out.println("Задача 7");
 
     }
 }
